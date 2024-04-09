@@ -1,18 +1,18 @@
-import React from 'react'
-import Protypes from 'prop-types'
+import React from 'react';
+import Protypes from 'prop-types';
 
 const style = {
-  backgroundColor:"#ccc",
-  height:18,
-  width:18,
-  textAlign:"center",
+  backgroundColor: '#ccc',
+  height: 18,
+  width: 18,
+  textAlign: 'center',
   fontSize: 14,
-}
+};
 
-export const DefaultDeleteIcon = props => (
+export const DefaultDeleteIcon = (props) => (
   <div
     style={{
-      float: "right",
+      float: 'right',
       cursor: 'pointer',
       ...style,
     }}
@@ -20,25 +20,25 @@ export const DefaultDeleteIcon = props => (
   >
     x
   </div>
-
-)
+);
 
 export const DefaultNumberIcon = ({ number }) => (
-  <div style={{
-    float:'left',
-    ...style,
-  }}>
+  <div
+    style={{
+      float: 'left',
+      ...style,
+    }}
+  >
     {number}
   </div>
-)
+);
 
-const { number } = Protypes
+const { number } = Protypes;
 
 DefaultNumberIcon.propTypes = {
   number,
-}
+};
 
 DefaultNumberIcon.defaultProps = {
   number: '',
-}
-
+};

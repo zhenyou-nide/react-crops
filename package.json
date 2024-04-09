@@ -1,7 +1,6 @@
 {
-  "name": "my-bag",
+  "name": "react-crops",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "interactjs": "^1.10.11",
     "nanoid": "^3.1.24",
@@ -13,7 +12,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "pub": "npm publish"
   },
   "eslintConfig": {
     "extends": [
@@ -37,5 +37,12 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3"
+  },
+  "author": "zhenyou-nide",
+  "license": "ISC",
+  "homepage": "https://github.com/zhenyou-nide/react-crops",
+  "repository": "https://github.com/zhenyou-nide/react-crops",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
